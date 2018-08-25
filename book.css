@@ -1,0 +1,118 @@
+nav {
+    height: 100%;
+    width: 0;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+nav a, nav span {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-transform:capitalize;
+    font-variant:small-caps;
+}
+nav *:hover {
+    color: #f1f1f1;
+}
+.nav-closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.nav-menubtn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 110px;
+}
+
+
+@media screen and (max-height: 450px) {
+    nav {padding-top: 15px;}
+    nav a {font-size: 18px;}
+}
+
+
+
+html, body {
+    height: 100%;
+    background-color: #e8e8e8;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+    text-align: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.nav-menubtn {
+    font-size: 1em;
+    padding: 20px 0px;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2em;
+    margin: 50px 0;
+    text-transform:capitalize;
+    font-variant:small-caps;
+}
+
+.title a {
+    display: block;
+}
+
+.block {
+    margin: 40px 5px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+}
+
+.block p {
+    margin: 10px 0px;
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
