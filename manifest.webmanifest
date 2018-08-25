@@ -1,0 +1,18 @@
+{
+    "theme_color": "#E8E8E8",
+    "orientation": "any",
+    "background_color": "#E8E8E8",
+    "description": "The book The Little Prince translated to English and russian.",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "img/sheep.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "name": "The Little Prince",
+    "short_name": "Prince",
+    "start_url": "/prince/book.html"
+}
+  
