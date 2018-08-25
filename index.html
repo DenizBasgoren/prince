@@ -97,9 +97,10 @@
             }, 200)
         }, 20000)
 
-        if ('serviceWorker' in navigator) {
+        
+        if ('serviceWorker' in navigator && !navigator.serviceWorker.controller) {
             navigator.serviceWorker
-                .register('/prince/sw.js')
+                .register('sw.js', { scope: "./" })
                 .then(function () { console.log('Service Worker Registered'); });
         }
     </script>
