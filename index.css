@@ -21,3 +21,7 @@ html, body {
 img {
     flex: 1;
 }
+
+.progress-bar {
+margin-top: 30px;
+}
