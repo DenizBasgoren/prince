@@ -1,0 +1,16 @@
+{
+    "name": "The Little Prince",
+    "short_name": "The Little Prince",
+    "icons": [
+        {
+            "src": "img/sheep.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/prince/book.html",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#E8E8E8",
+    "theme_color": "#E8E8E8"
+}
