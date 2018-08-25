@@ -13,11 +13,12 @@ let installed = false
 let progressInterval = null
 
 
-
 bah.onclick = function (e) {
-    this.style.width = "90"
+    this.style.width = "90px"
+    this.style.marginBottom = "10px"
     setTimeout(function () {
-        bah.style.width = "100"
+        bah.style.width = "100px"
+        bah.style.marginBottom = ""
     }, 200)
 }
 
