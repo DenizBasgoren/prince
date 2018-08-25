@@ -10,7 +10,7 @@ html, body {
 
 .wrapper {
     height: 100%;
-    background: #E8E8E8;
+    background: white;
     display: flex;
     -webkit-align-items: center;
     -webkit-justify-content: center;
