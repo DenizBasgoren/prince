@@ -1,14 +1,15 @@
 {
     "name": "The Little Prince",
-    "short_name": "The Little Prince",
+    "short_name": "Prince",
     "icons": [
         {
-            "src": "img/sheep.png",
+            "src": "https://denizbasgoren.github.io/prince/img/sheep.png",
             "sizes": "512x512",
             "type": "image/png"
         }
     ],
-    "start_url": "/prince/book.html",
+    "start_url": "https://denizbasgoren.github.io/prince/book.html",
+    "scope": "/prince/",
     "display": "standalone",
     "orientation": "any",
     "background_color": "#E8E8E8",
